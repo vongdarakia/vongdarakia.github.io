@@ -25,7 +25,7 @@
     "react-typography": "^0.16.19",
     "styled-components": "^5.1.1",
     "typography": "^0.16.19",
-    "typography-theme-fairy-gates": "^0.16.19"
+    "typography-theme-noriega": "^0.16.19"
   },
   "devDependencies": {
     "@types/node": "^14.0.14",
