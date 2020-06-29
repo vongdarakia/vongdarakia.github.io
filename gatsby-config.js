@@ -5,7 +5,13 @@
  */
 
 module.exports = {
-    /* Your site config here */
+    siteMetadata: {
+        author: {
+            firstName: "Akia",
+            lastName: "Vongdara",
+            fullName: "Akia Vongdara",
+        },
+    },
     plugins: [
         "gatsby-plugin-graphql-codegen",
         "gatsby-plugin-typescript",
