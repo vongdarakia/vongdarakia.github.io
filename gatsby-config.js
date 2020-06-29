@@ -7,6 +7,7 @@
 module.exports = {
     /* Your site config here */
     plugins: [
+        "gatsby-plugin-graphql-codegen",
         "gatsby-plugin-typescript",
         "gatsby-plugin-styled-components",
         {
