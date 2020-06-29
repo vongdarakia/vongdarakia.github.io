@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-blog-tsx","path":"/blog/001-first-post","result":{"data":{"markdownRemark":{"frontmatter":{"title":"My first blog post","date":"2020-06-28"},"html":"<p>Finally made my first personal website.</p>\n<p>Why did it take this long? Because I'm a lazy perfectionist.</p>"}},"pageContext":{"slug":"001-first-post"}}}

@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-blog-tsx","path":"/blog/002-another-post","result":{"data":{"markdownRemark":{"frontmatter":{"title":"My 2nd blog post","date":"2020-06-29"},"html":"<p>This is another post. Just because.</p>"}},"pageContext":{"slug":"002-another-post"}}}

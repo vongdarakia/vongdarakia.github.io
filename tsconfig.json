@@ -1,9 +1,0 @@
-{
-    "compilerOptions": {
-        "baseUrl": ".",
-        "jsx": "react",
-        "esModuleInterop": true,
-        "noImplicitAny": true,
-        "strict": true
-    }
-}
