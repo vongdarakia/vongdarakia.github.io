@@ -13,6 +13,12 @@ module.exports = {
         },
     },
     plugins: [
+        {
+            resolve: `gatsby-plugin-google-analytics`,
+            options: {
+                trackingId: "UA-76022540-3",
+            },
+        },
         "gatsby-plugin-graphql-codegen",
         "gatsby-plugin-typescript",
         "gatsby-plugin-styled-components",
