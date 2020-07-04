@@ -62,7 +62,7 @@ const Blog = ({ data }: Props) => {
 
                     return (
                         <li key={title}>
-                            <Link to={`/blog/${slug as string}`}>
+                            <Link to={`/blog/${slug}`}>
                                 <h2>{title}</h2>
                                 <h4>{date}</h4>
                             </Link>

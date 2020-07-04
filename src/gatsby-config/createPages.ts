@@ -48,7 +48,7 @@ const createPages: GatsbyNode["createPages"] = async ({
         const { slug } = fields;
 
         createPage({
-            path: `/blog/${slug as string}`,
+            path: `/blog/${slug}`,
             component: blogTemplate,
             context: {
                 slug: fields.slug,
