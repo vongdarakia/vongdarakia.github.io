@@ -13,7 +13,7 @@ export const query = graphql`
         site {
             siteMetadata {
                 author {
-                    fullName
+                    firstName
                 }
             }
         }
@@ -21,17 +21,18 @@ export const query = graphql`
 `;
 
 const Home = ({ data: { site } }: Props) => {
-    const fullName = site?.siteMetadata?.author?.fullName;
+    const firstName = site?.siteMetadata?.author?.firstName;
 
-    if (None(fullName)) {
-        throw new Error("author.fullName does not exist in siteMetadata");
+    if (None(firstName)) {
+        throw new Error("author.firstName does not exist in siteMetadata");
     }
 
     return (
         <Layout>
-            <h1>I am {fullName}</h1>
+            <h1>I am {firstName}</h1>
             <p>
-                I tell computers to do things that makes life easier for humans
+                This page is still under construction, and probably forever.
+                Thank you for your patience.
             </p>
         </Layout>
     );

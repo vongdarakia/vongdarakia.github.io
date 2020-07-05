@@ -8,7 +8,6 @@ interface Props {
 export const Layout = ({ children }: Props) => {
     return (
         <div id="layout">
-            <Nav />
             <main>{children}</main>
         </div>
     );
